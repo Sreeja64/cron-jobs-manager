@@ -47,6 +47,8 @@ npm run generate
 
 [A dist folder gets created. Copy/Move the folder in the root folder.]
 
+cd ..
+
 node .
 
 # Commands to run the cron-jobs-manager by docker:
