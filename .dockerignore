@@ -1,0 +1,6 @@
+cronjobnew.db
+client/node_modules
+client/dist
+client/.nuxt
+dist/
+node_modules/
