@@ -20,7 +20,7 @@ dockerode
 # Commands to run the cron-jobs-manager locally:
 
 Create a .env file in the root folder and the following content:
-
+```
 PORT = 3000
 
 ENV= LOCAL
@@ -32,9 +32,9 @@ DB_PASSWORD=
 DB_USER=
 
 DB_DIALECT=sqlite
-
+```
 Run the following commands:
-
+```
 npm install 
 
 cd client/
@@ -50,6 +50,7 @@ npm run generate
 cd ..
 
 node .
+```
 
 # Commands to run the cron-jobs-manager by docker:
 
